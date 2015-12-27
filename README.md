@@ -38,6 +38,6 @@ $ docker run -v /home/user/mysite:/var/www spiralout/dnodejs gulp
 ## Run gulp watch
 to run a container and keep it live you have to use the `-d` option
 ```
-$ docker run -d -v </Your/Absolute/Path/To/laravel/folder>:/var/www spiralout/dnodejs gulp watch
+$ docker run -d -v /home/user/mysite:/var/www spiralout/dnodejs gulp watch
 ```
 
